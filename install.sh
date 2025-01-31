@@ -12,7 +12,7 @@ if [ -d "${HOME}/.tmux/plugins/tpm" ]; then
 fi
 
 # Clone TPM
-git clone git@github.com:demiurge94/tpm-demi.git ~/.tmux/plugins/tpm
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
 # Check if .tmux.conf already exists in home directory
 if [ -f "${HOME}/.tmux.conf" ]; then
